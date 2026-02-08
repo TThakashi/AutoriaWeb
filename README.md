@@ -1,3 +1,5 @@
+Integrantes do grupo: THALLES MATUZAEL DANTAS ANDRADE, THIAGO DE SOUZA CONRADO DOS PASSOS, JEREMIAS FERREIRA SANTANA.
+
 Tema central: Autoria Web – processo de criação, desenvolvimento e publicação de conteúdo para a web, com foco nas três tecnologias essenciais: HTML (estrutura), CSS (estilização) e JavaScript (interatividade).
 Objetivos: Ensinar os fundamentos do desenvolvimento web de forma prática, com exemplos interativos e demonstração de oportunidades profissionais na área.
 
