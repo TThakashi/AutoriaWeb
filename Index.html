@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoria Web | Curso Técnico em Informática</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Cabeçalho e Navegação -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <h1>Autoria<span>Web</span></h1>
+            </div>
+            <nav class="nav">
+                <button class="menu-toggle" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#autoria-web" class="nav-link">Autoria Web</a></li>
+                    <li><a href="#html" class="nav-link">HTML</a></li>
+                    <li><a href="#css" class="nav-link">CSS</a></li>
+                    <li><a href="#javascript" class="nav-link">JavaScript</a></li>
+                    <li><a href="#conclusao" class="nav-link">Conclusão</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Principal/Banner -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Domine a <span>Criação de Sites</span></h2>
+                <p class="hero-text">Aprenda os fundamentos de Autoria Web: HTML, CSS e JavaScript. Desenvolva sites modernos, responsivos e interativos para o mundo digital.</p>
+                <div class="hero-buttons">
+                    <a href="#autoria-web" class="btn btn-primary">Comece a Aprender</a>
+                    <a href="#conclusao" class="btn btn-secondary">Ver Aplicações</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Desenvolvedor codificando em um laptop">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção O que é Autoria Web -->
+    <section id="autoria-web" class="section section-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O que é <span>Autoria Web</span>?</h2>
+                <p class="section-subtitle">Conceitos fundamentais para criação de páginas e aplicações web</p>
+            </div>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>Autoria Web refere-se ao processo de criação, desenvolvimento e publicação de conteúdo para a web. Envolve o uso de linguagens de marcação, estilização e programação para construir sites e aplicações web funcionais e visualmente atrativas.</p>
+                    <p>No contexto do Curso Técnico em Informática, a autoria web é uma habilidade essencial que combina aspectos técnicos e criativos para produzir experiências digitais eficientes.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Desenvolvimento de interfaces responsivas</li>
+                        <li><i class="fas fa-check-circle"></i> Criação de conteúdos interativos</li>
+                        <li><i class="fas fa-check-circle"></i> Implementação de designs modernos</li>
+                        <li><i class="fas fa-check-circle"></i> Publicação e manutenção de sites</li>
+                    </ul>
+                </div>
+                <div class="image-content">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" alt="Dashboard com gráficos e dados sobre web">
+                </div>
+            </div>
+            
+            <!-- Cards explicativos -->
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="card-title">Desenvolvimento</h3>
+                    <p class="card-text">Criação de páginas web utilizando HTML, CSS e JavaScript, seguindo padrões web e boas práticas.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="card-title">Design</h3>
+                    <p class="card-text">Planejamento visual e usabilidade, garantindo experiências agradáveis e acessíveis para os usuários.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="card-title">Responsividade</h3>
+                    <p class="card-text">Adaptação de sites para diferentes tamanhos de tela: desktop, tablet e dispositivos móveis.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="card-title">Publicação</h3>
+                    <p class="card-text">Hospedagem e manutenção de sites na web, garantindo performance e segurança.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção HTML -->
+    <section id="html" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">HTML - <span>Estrutura Web</span></h2>
+                <p class="section-subtitle">A linguagem de marcação que estrutura o conteúdo da web</p>
+            </div>
+            <div class="content-wrapper reverse">
+                <div class="text-content">
+                    <p>HTML (HyperText Markup Language) é a linguagem fundamental para criação de páginas web. Ela define a estrutura e o significado do conteúdo através de elementos e tags.</p>
+                    <p>Com o HTML5, a linguagem ganhou recursos semânticos que facilitam a organização do conteúdo e melhoram a acessibilidade e indexação por mecanismos de busca.</p>
+                    
+                    <div class="code-container">
+                        <div class="code-header">
+                            <span>Exemplo de estrutura HTML básica</span>
+                            <button class="copy-btn" onclick="copyCode('html-code')">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+                        <pre id="html-code"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Minha Página Web&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;h1&gt;Meu Site&lt;/h1&gt;
+        &lt;nav&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Sobre&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+    &lt;/header&gt;
+    
+    &lt;main&gt;
+        &lt;section&gt;
+            &lt;h2&gt;Conteúdo Principal&lt;/h2&gt;
+            &lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;
+        &lt;/section&gt;
+    &lt;/main&gt;
+    
+    &lt;footer&gt;
+        &lt;p&gt;Rodapé da página&lt;/p&gt;
+    &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                    </div>
+                </div>
+                <div class="image-content">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Código HTML em um editor de texto">
+                    <div class="image-caption">
+                        <p>Estrutura semântica do HTML5 melhora a organização e acessibilidade do conteúdo.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Elementos HTML com ícones -->
+            <div class="html-elements">
+                <div class="element">
+                    <div class="element-icon">
+                        <i class="fas fa-heading"></i>
+                    </div>
+                    <h4>Cabeçalhos</h4>
+                    <p>Tags h1 a h6 para títulos e subtítulos</p>
+                </div>
+                <div class="element">
+                    <div class="element-icon">
+                        <i class="fas fa-paragraph"></i>
+                    </div>
+                    <h4>Parágrafos</h4>
+                    <p>Tag &lt;p&gt; para blocos de texto</p>
+                </div>
+                <div class="element">
+                    <div class="element-icon">
+                        <i class="fas fa-list"></i>
+                    </div>
+                    <h4>Listas</h4>
+                    <p>Ordenadas (&lt;ol&gt;) e não ordenadas (&lt;ul&gt;)</p>
+                </div>
+                <div class="element">
+                    <div class="element-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h4>Links</h4>
+                    <p>Tag &lt;a&gt; para navegação entre páginas</p>
+                </div>
+                <div class="element">
+                    <div class="element-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h4>Imagens</h4>
+                    <p>Tag &lt;img&gt; para exibir conteúdo visual</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção CSS -->
+    <section id="css" class="section section-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">CSS - <span>Estilização Web</span></h2>
+                <p class="section-subtitle">A linguagem que dá estilo, cor e vida às páginas web</p>
+            </div>
+            
+            <!-- Comparação Sem CSS / Com CSS -->
+            <div class="comparison-section">
+                <div class="comparison-header">
+                    <h3>CSS Transforma a Aparência da Web</h3>
+                    <p>Veja a diferença que o CSS faz na apresentação de um conteúdo</p>
+                </div>
+                <div class="comparison-container">
+                    <div class="comparison-box without-css">
+                        <div class="comparison-title">
+                            <i class="fas fa-times-circle"></i>
+                            <h4>Sem CSS</h4>
+                        </div>
+                        <div class="comparison-content">
+                            <h3>Título da Página</h3>
+                            <p>Este é um parágrafo de exemplo sem qualquer estilização CSS aplicada. O texto aparece com a formatação padrão do navegador.</p>
+                            <div class="example-box">
+                                <p>Caixa de exemplo sem estilos</p>
+                            </div>
+                            <button class="example-btn">Botão sem estilo</button>
+                        </div>
+                    </div>
+                    <div class="comparison-box with-css">
+                        <div class="comparison-title">
+                            <i class="fas fa-check-circle"></i>
+                            <h4>Com CSS</h4>
+                        </div>
+                        <div class="comparison-content styled">
+                            <h3>Título da Página</h3>
+                            <p>Este é um parágrafo de exemplo com estilização CSS aplicada. Observe as cores, fontes, espaçamentos e efeitos visuais.</p>
+                            <div class="example-box styled-box">
+                                <p>Caixa de exemplo com estilos</p>
+                            </div>
+                            <button class="example-btn styled-btn">Botão estilizado</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>CSS (Cascading Style Sheets) é a linguagem de estilização que controla a apresentação visual de documentos HTML. Com CSS, você pode definir cores, fontes, layouts, animações e tornar sites responsivos para diferentes dispositivos.</p>
+                    <p>O CSS3 introduziu recursos avançados como flexbox, grid, transformações, transições e animações, permitindo designs web sofisticados e interativos.</p>
+                    
+                    <div class="code-container">
+                        <div class="code-header">
+                            <span>Exemplo de estilização CSS</span>
+                            <button class="copy-btn" onclick="copyCode('css-code')">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+                        <pre id="css-code"><code>/* Estilizando um container principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilizando um card moderno */
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 25px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Estilizando um botão */
+.btn {
+    display: inline-block;
+    background: #4361ee;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #3a56d4;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="image-content">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Designer trabalhando com cores e layout">
+                    <div class="image-caption">
+                        <p>CSS permite criar designs responsivos que se adaptam a diferentes tamanhos de tela.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção JavaScript -->
+    <section id="javascript" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">JavaScript - <span>Interatividade Web</span></h2>
+                <p class="programming-subtitle">A linguagem de programação que traz dinamismo e interatividade à web</p>
+            </div>
+            
+            <!-- Carrossel de Exemplos JS -->
+            <div class="carousel-container">
+                <div class="carousel-header">
+                    <h3>Exemplos de Interatividade com JavaScript</h3>
+                    <p>Clique nos botões para ver a demonstração</p>
+                </div>
+                <div class="carousel">
+                    <div class="carousel-slides">
+                        <div class="carousel-slide active">
+                            <div class="slide-content">
+                                <div class="slide-icon">
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                                <h4>Menu Responsivo</h4>
+                                <p>JavaScript permite criar menus que se adaptam a diferentes tamanhos de tela, como o menu hambúrguer em dispositivos móveis.</p>
+                                <button class="demo-btn" onclick="toggleDemoMenu()">Abrir/Fechar Menu Demo</button>
+                                <div id="demo-menu" class="demo-menu">
+                                    <a href="#">Página Inicial</a>
+                                    <a href="#">Sobre</a>
+                                    <a href="#">Serviços</a>
+                                    <a href="#">Contato</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="slide-content">
+                                <div class="slide-icon">
+                                    <i class="fas fa-palette"></i>
+                                </div>
+                                <h4>Modo Escuro/Claro</h4>
+                                <p>Alternar entre temas claro e escuro melhora a experiência do usuário e reduz a fadiga visual.</p>
+                                <button class="demo-btn" onclick="toggleTheme()">Alternar Tema</button>
+                                <div class="theme-demo">
+                                    <p>Texto de exemplo para demonstrar a alteração de tema.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="slide-content">
+                                <div class="slide-icon">
+                                    <i class="fas fa-calculator"></i>
+                                </div>
+                                <h4>Calculadora Simples</h4>
+                                <p>JavaScript permite criar aplicações interativas como calculadoras diretamente no navegador.</p>
+                                <div class="calculator-demo">
+                                    <input type="number" id="num1" placeholder="Número 1" value="10">
+                                    <input type="number" id="num2" placeholder="Número 2" value="5">
+                                    <div class="calc-buttons">
+                                        <button onclick="calculate('add')">+</button>
+                                        <button onclick="calculate('subtract')">-</button>
+                                        <button onclick="calculate('multiply')">×</button>
+                                        <button onclick="calculate('divide')">÷</button>
+                                    </div>
+                                    <p id="calc-result">Resultado: <span>15</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-prev" onclick="prevSlide()">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <div class="carousel-indicators">
+                            <span class="indicator active" data-slide="0"></span>
+                            <span class="indicator" data-slide="1"></span>
+                            <span class="indicator" data-slide="2"></span>
+                        </div>
+                        <button class="carousel-next" onclick="nextSlide()">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-wrapper reverse">
+                <div class="text-content">
+                    <p>JavaScript é uma linguagem de programação que permite adicionar interatividade, dinamismo e funcionalidades complexas às páginas web. É a única linguagem de programação que funciona nativamente nos navegadores.</p>
+                    <p>Com JavaScript, você pode manipular o DOM (Document Object Model), responder a eventos do usuário, fazer requisições a servidores, criar animações e muito mais.</p>
+                    
+                    <div class="code-container">
+                        <div class="code-header">
+                            <span>Exemplo de código JavaScript</span>
+                            <button class="copy-btn" onclick="copyCode('js-code')">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+                        <pre id="js-code"><code>// Exemplo: Menu responsivo com JavaScript
+const menuToggle = document.querySelector('.menu-toggle');
+const navList = document.querySelector('.nav-list');
+
+menuToggle.addEventListener('click', () => {
+    navList.classList.toggle('active');
+    menuToggle.classList.toggle('active');
+});
+
+// Exemplo: Rolagem suave para links internos
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        if(targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if(targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop - 80,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+// Exemplo: Validação de formulário
+function validateForm() {
+    const email = document.getElementById('email').value;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    
+    if(!emailRegex.test(email)) {
+        alert('Por favor, insira um e-mail válido.');
+        return false;
+    }
+    
+    return true;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="image-content">
+                    <img src="https://images.unsplash.com/photo-1555066931-bf19f8fd1085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Código JavaScript em um editor">
+                    <div class="image-caption">
+                        <p>JavaScript permite criar aplicações web completas com lógica e interatividade.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Conclusão -->
+    <section id="conclusao" class="section section-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Conclusão - <span>O Futuro da Web</span></h2>
+                <p class="section-subtitle">Autoria Web como habilidade essencial no mercado de tecnologia</p>
+            </div>
+            
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>A Autoria Web é uma competência fundamental para profissionais de tecnologia no cenário digital atual. Dominar HTML, CSS e JavaScript abre portas para diversas oportunidades no mercado de trabalho, desde desenvolvimento front-end até criação de experiências digitais completas.</p>
+                    <p>Com a constante evolução da web, novas tecnologias e frameworks surgem, mas os fundamentos de autoria web permanecem essenciais. Profissionais que dominam essas bases têm vantagem competitiva e capacidade de adaptação às mudanças tecnológicas.</p>
+                    
+                    <div class="opportunities">
+                        <h3>Oportunidades Profissionais</h3>
+                        <div class="opportunity-list">
+                            <div class="opportunity">
+                                <i class="fas fa-laptop-code"></i>
+                                <h4>Desenvolvedor Front-end</h4>
+                                <p>Cria a interface e experiência do usuário em sites e aplicações web.</p>
+                            </div>
+                            <div class="opportunity">
+                                <i class="fas fa-paint-brush"></i>
+                                <h4>Web Designer</h4>
+                                <p>Projeta a aparência e usabilidade de sites, focando na experiência visual.</p>
+                            </div>
+                            <div class="opportunity">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h4>Desenvolvedor Responsivo</h4>
+                                <p>Especialista em criar sites que funcionam perfeitamente em todos os dispositivos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="final-message">
+                        <h3>Próximos Passos</h3>
+                        <p>Continue seus estudos em Autoria Web explorando frameworks como React, Vue.js ou Angular, aprofundando-se em CSS com pré-processadores como SASS, e aprendendo sobre acessibilidade web e otimização de performance.</p>
+                        <p>O mundo digital está em constante evolução, e suas habilidades em autoria web serão cada vez mais valorizadas no mercado de trabalho.</p>
+                    </div>
+                </div>
+                <div class="image-content">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Pessoas colaborando em um projeto de tecnologia">
+                    <div class="image-caption">
+                        <p>O trabalho colaborativo em projetos web é essencial no ambiente profissional atual.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cta-section">
+                <h3>Preparado para criar sua presença na web?</h3>
+                <p>Comece agora a desenvolver suas habilidades em Autoria Web e construa projetos incríveis.</p>
+                <div class="cta-buttons">
+                    <a href="#home" class="btn btn-primary">Voltar ao Início</a>
+                    <button class="btn btn-secondary" onclick="showResources()">Ver Recursos Adicionais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <i class="fas fa-code"></i>
+                        <h2>Autoria<span>Web</span></h2>
+                    </div>
+                    <p>Site educacional desenvolvido para o Curso Técnico em Informática.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#autoria-web">Autoria Web</a></li>
+                        <li><a href="#html">HTML</a></li>
+                        <li><a href="#css">CSS</a></li>
+                        <li><a href="#javascript">JavaScript</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Tecnologias Utilizadas</h4>
+                    <div class="tech-icons">
+                        <i class="fab fa-html5" title="HTML5"></i>
+                        <i class="fab fa-css3-alt" title="CSS3"></i>
+                        <i class="fab fa-js-square" title="JavaScript"></i>
+                        <i class="fas fa-mobile-alt" title="Responsividade"></i>
+                    </div>
+                    <p>Este site é totalmente responsivo e utiliza as mais recentes tecnologias web.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Autoria Web - Curso Técnico em Informática. Todos os direitos reservados.</p>
+                <p>Desenvolvido com <i class="fas fa-heart"></i> para fins educacionais.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
