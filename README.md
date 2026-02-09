@@ -1,4 +1,4 @@
-Integrantes do grupo: THALLES MATUZAEL DANTAS ANDRADE, THIAGO DE SOUZA CONRADO DOS PASSOS, JEREMIAS FERREIRA SANTANA.
+Integrantes do grupo: THALLES MATUZAEL DANTAS ANDRADE Matrícula: 20251064010042, THIAGO DE SOUZA CONRADO DOS PASSOS Matrícula: 20231064010009, JEREMIAS FERREIRA SANTANA Matrícula: 20231064010007.
 
 Tema central: Autoria Web – processo de criação, desenvolvimento e publicação de conteúdo para a web, com foco nas três tecnologias essenciais: HTML (estrutura), CSS (estilização) e JavaScript (interatividade).
 Objetivos: Ensinar os fundamentos do desenvolvimento web de forma prática, com exemplos interativos e demonstração de oportunidades profissionais na área.
